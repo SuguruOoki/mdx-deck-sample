@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "mdx-deck-personal-sample",
+  "description": "Deck created with mdx-deck to practice",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@mdx-deck/gatsby-plugin": "^4.1.1",
+    "emotion-theming": "^11.0.0",
+    "mdx-deck": "^4.1.1"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  }
+}
